@@ -73,19 +73,60 @@ text-decoration: none;
     text-decoration: none;
     color: black;
 }
-.footer{
+.options{
+    display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+align-items: center;
+}
+.options img{
+    max-width: 40%;
+}
+.options h2{
+    color: #0C7E85;
+    margin-right: 16rem;
+    padding-left: 2rem;
+    line-height: 1.8;
+}
+.optionboxes p{
+    font-size: 1rem;
+    font-family: 'Epilogue', sans-serif;
+    border-radius: 5px;
+    padding: 0.5rem 2rem;
+    background-color:#0C7E85; 
+    color: white;
+    margin-top: 1rem;
+    justify-content: right;
+    line-height: 1.8;
+
+}
+.services{
+    background-color:#EFEFEF;
+    padding: 4rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    gap: 100px 180px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.servicetitle{
     background-color:#EFEFEF;
     padding: 2rem;
-    margin-top: 2rem;
+    margin-bottom:-2rem;
 }
 footer{
-    background-color: #EFEFEF;
+    background-color: white;
     font-size: smaller;
+    color: lightgray;
     margin-top: -1rem;
     padding-bottom: 1rem;
+    display: flex;
+    flex-direction: row;
 }
 footer p{
     margin-left: 2rem;
+
 }
 @media only screen and (max-width: 767px) {
     .hero{
@@ -102,3 +143,4 @@ footer p{
         max-width: 50%;
     }
   }*/
+  /*<a href="https://www.freepik.com/free-vector/online-education-training-with-students-tutor_24315587.htm#page=3&query=studying%20vector&position=1&from_view=search">Image by upklyak</a> on Freepik*/
